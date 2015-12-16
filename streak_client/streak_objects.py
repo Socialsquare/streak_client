@@ -113,11 +113,13 @@ class StreakField(StreakBaseObject):
 	disp_attr_keys =	[
 						'name',
 						'key',
-						'type'
+						'type',
+						'dropdownSettings'
 						]
 	rw_attr_keys = 		[
 						'name',
-						'type'
+						'type',
+						'dropdownSettings'
 						]
 class StreakReminder(StreakBaseObject):
 	disp_attr_keys =	[
